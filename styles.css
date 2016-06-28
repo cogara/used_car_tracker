@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /*text-align: center;*/
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+select, input:not([type="radio"]) {
+  width: 100%;
+  padding: 5px;
+  text-align: left;
+}
+
+input[type="submit"] {
+  /*display: block;*/
+  margin: 10px auto;
+}
+body {
+  width: 97%;
+  margin: 0 auto;
+}
+
+.left {
+  float: left;
+  width: 35%;
+  margin: 10px 0;
+  padding: 10px 30px;
+  background-color: #DDD;
+}
+
+/*
+.form {
+  float: left;
+  width: 35%;
+  margin: 10px 0;
+  padding: 10px 30px;
+  background-color: #DDD;
+}*/
+
+
+.rating {
+  margin: 0 10px;
+}
+.carsList {
+  width: 64%;
+  display: block;
+  float: right;
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #DDD;
+  position: relative;
+}
+
+.carsList ul {
+  list-style: none;
+}
+
+h1, h2 {
+  margin: 10px 0 20px;
+  text-align: center;
+}
+
+.car {
+  margin: 5px 0;
+  padding: 15px;
+  position: relative;
+}
+
+.red {
+  background-color: red;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.yellow h4, .yellow .remove {
+  color: black;
+}
+
+.blue {
+  background-color: greenyellow;
+}
+
+.green {
+  background-color: green;
+}
+
+.car, .carsList, .left {
+  border-radius: 5px;
+  box-shadow: 1px 1px 0 rgba(0,0,0,.2);
+  border: 1px solid rgba(0,0,0,.1);
+}
+
+.car-title {
+  color: white;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+.remove {
+  position: absolute;
+  right: 10px;
+  top: 12px;
+  font-size: 12px;
+  padding: 3px;
+  color: white;
+}
+
+.clearList, #sort {
+  position: absolute;
+  top: 10px;
+}
+
+.clearList {
+  right: 10px;
+}
